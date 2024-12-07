@@ -12,7 +12,15 @@ public class Main {
             System.out.print("["+i+"]"+"[" + j+"]");
             Matriz[i][j] = sc.nextInt();           
         }
-    }    
+    }  
+    
+    for(int i=0; i < d; i++){
+        for(int j=0; j < d;j++){
+            System.out.print("["+Matriz[i][j]+"]");
+           
+        }
+        System.out.println("");
+    } 
     
     for(int i=0; i < d; i++){
         if(i == 0 || i == d-1){
