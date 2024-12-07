@@ -141,16 +141,16 @@ public class Main {
 
 > I) Entrada del valor de la variable "dimension"
 
-- Complejidad de tiempo: 𝑂(1)
-- Complejidad de espacio: 𝑂(1)
+- Complejidad de tiempo: 𝑂(1) (El tiempo depende del número de intentos del usuario para ingresar un valor válido. En cada intento, las operaciones de entrada y validación son 𝑂(1), en el peor caso 𝑂(k), k siendo el numero de intentos al poner valores incorrectos)
+- Complejidad de espacio: 𝑂(1) (Debido a que no se utiliza más de una variable)
 
 > II) Inicialización de la variable almacenadora de sumatoria, impresión de la matriz e ingreso de numeros en la matriz
 
-- Complejidad de tiempo: 𝑂(d²)
-- Complejidad de espacio: 𝑂(d²)
+- Complejidad de tiempo: 𝑂(d²) (Ya que recorre en bucle doble d x d)
+- Complejidad de espacio: 𝑂(d²) (Debido a que utiliza una estructura bidimensional)
 
 >III) Impresión de la matriz cuadrada, calculo de la sumatoria del perimetro de la matriz cuadrada dXd e impresión de salida de la variable "Suma_perimetro"
 
-- Complejidad de tiempo: 𝑂(d²)
-- Complejidad de espacio: 𝑂(d²)
+- Complejidad de tiempo: 𝑂(d²) (Ya que recorre todos los elementos)
+- Complejidad de espacio: 𝑂(d²) (Ya que evalúa todos los elementos de la matriz para identificar los del perímetro)
 
