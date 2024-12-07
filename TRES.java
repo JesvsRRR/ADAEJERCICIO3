@@ -1,9 +1,6 @@
-
-package tres;
-
 import java.util.Scanner;
 
-public class TRES {
+public class Main {
     
     public static int Sumatoria(int d){
     Scanner sc = new Scanner(System.in);      
