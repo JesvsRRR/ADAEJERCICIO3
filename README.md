@@ -38,6 +38,29 @@ int Suma_perimetro = Sumatoria(d);
     } 
 ```
 
+> III) Calculo de la sumatoria del perimetro de una matriz cuadrada dXd e impresión de la variable "Suma_perimetro"
+
+```bash
+    for(int i=0; i < d; i++){
+        if(i == 0 || i == d-1){
+        for(int j=0; j < d; j++){
+        salida += Matriz[i][j];    
+        }
+        }
+        else{
+        salida += Matriz[i][0];
+        salida += Matriz[i][d-1];
+        }
+    }
+    
+    return salida;
+    }
+```
+
+```bash
+    System.out.println("SUMATORIA TOTAL: " + Suma_perimetro);
+```
+
 ### Codigo completo
 
 ```bash
