@@ -9,7 +9,6 @@
 > I) Entrada del valor de la variable "dimension"
 
 ```bash
-> I) Entrada del valor de la variable "dimension"
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresar dimension [d]: ");
