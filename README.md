@@ -18,7 +18,7 @@
            d = sc.nextInt();;
         }
 ```
-> II) Inicialización de la variable almacenadora de sumatoria e ingreso de numeros en la matriz
+> II) Inicialización de la variable almacenadora de sumatoria, impresión de la matriz e ingreso de numeros en la matriz
 
 ```bash
 int Suma_perimetro = Sumatoria(d);
