@@ -22,9 +22,9 @@
 ```
 > II) Inicialización de la variable almacenadora de sumatoria, impresión de la matriz e ingreso de numeros en la matriz
 
-- Se hace un llamado a la función `"Suma_perimetro`, la cual usara la variable `"d"`.
-- Se inicializa una `Matriz` tamaño dxd y una variable almacenadora que sumara todos los numeros del perimetro de la matriz cuadratica.
-- Se procede a ingresar los valores numericos a cada elemento de la matriz mediante un recorrido en doble bucle
+- Se hace un llamado a la función `"Suma_perimetro"`, la cual usara la variable `"d"`.
+- Se inicializa una `"Matriz"` tamaño dxd y una variable almacenadora `"salida"` que sumara todos los numeros del perimetro de la matriz cuadratica.
+- Se procede a ingresar los valores numericos a cada elemento de la matriz mediante un recorrido en doble bucle.
 
 ```bash
 int Suma_perimetro = Sumatoria(d);
@@ -46,7 +46,8 @@ int Suma_perimetro = Sumatoria(d);
 
 > III) Impresión de la matriz cuadrada, calculo de la sumatoria del perimetro de la matriz cuadrada dXd e impresión de salida de la variable "Suma_perimetro"
 
-
+- Se realizan dos recorridos en doble bucle con la prioridad de: imprimir los elementos de la `"Matriz[d][d]` y sumar los valores en la variable `"salida"`.
+- Respecto al segundo recorrido, se entiende por perimetro de la matriz por los bordes de la matriz, para ello el bucle debe identificar si se encuentra en la primera y ultima matriz para realizar el recorrido entero de la fila, si no fuese el caso entonces que la variable `"salida"` sume el primer y ultimo elemento de la fila que no es la primera o la ultima. Finalmente la función devuelve el valor int mediante la variable `"salida"`, asi mismo se imprime el dato de salida por la variable inicializada `"Suma_perimetro"` de la función `main`. 
 
 ```bash
 
