@@ -127,3 +127,21 @@ public class Main {
     
 }
 ```
+
+# 3. Complejidad
+
+> I) Entrada del valor de la variable "dimension"
+
+- Complejidad de tiempo: 𝑂(1)
+- Complejidad de espacio: 𝑂(1)
+
+> II) Inicialización de la variable almacenadora de sumatoria, impresión de la matriz e ingreso de numeros en la matriz
+
+- Complejidad de tiempo: 𝑂(d²)
+- Complejidad de espacio: 𝑂(d²)
+
+>III) Impresión de la matriz cuadrada, calculo de la sumatoria del perimetro de la matriz cuadrada dXd e impresión de salida de la variable "Suma_perimetro"
+
+- Complejidad de tiempo: 𝑂(d²)
+- Complejidad de espacio: 𝑂(d²)
+
