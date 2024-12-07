@@ -8,6 +8,8 @@
 
 > I) Entrada del valor de la variable "dimension"
 
+- Utilizando la libreria java `Scanner` para ingresar datos de entrada, se ingresa el valor correspondiente a la variable `"d"`.
+
 ```bash
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,6 +21,10 @@
         }
 ```
 > II) Inicialización de la variable almacenadora de sumatoria, impresión de la matriz e ingreso de numeros en la matriz
+
+- Se hace un llamado a la función `"Suma_perimetro`, la cual usara la variable `"d"`.
+- Se inicializa una `Matriz` tamaño dxd y una variable almacenadora que sumara todos los numeros del perimetro de la matriz cuadratica.
+- Se procede a ingresar los valores numericos a cada elemento de la matriz mediante un recorrido en doble bucle
 
 ```bash
 int Suma_perimetro = Sumatoria(d);
@@ -39,6 +45,8 @@ int Suma_perimetro = Sumatoria(d);
 ```
 
 > III) Impresión de la matriz cuadrada, calculo de la sumatoria del perimetro de la matriz cuadrada dXd e impresión de salida de la variable "Suma_perimetro"
+
+
 
 ```bash
 
