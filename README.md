@@ -38,9 +38,18 @@ int Suma_perimetro = Sumatoria(d);
     } 
 ```
 
-> III) Calculo de la sumatoria del perimetro de una matriz cuadrada dXd e impresión de la variable "Suma_perimetro"
+> III) Impresión de la matriz cuadrada, calculo de la sumatoria del perimetro de la matriz cuadrada dXd e impresión de salida de la variable "Suma_perimetro"
 
 ```bash
+
+    for(int i=0; i < d; i++){
+        for(int j=0; j < d;j++){
+            System.out.print("["+Matriz[i][j]+"]");
+           
+        }
+        System.out.println("");
+    }
+
     for(int i=0; i < d; i++){
         if(i == 0 || i == d-1){
         for(int j=0; j < d; j++){
@@ -78,7 +87,15 @@ public class Main {
             System.out.print("["+i+"]"+"[" + j+"]");
             Matriz[i][j] = sc.nextInt();           
         }
-    }    
+    }  
+    
+    for(int i=0; i < d; i++){
+        for(int j=0; j < d;j++){
+            System.out.print("["+Matriz[i][j]+"]");
+           
+        }
+        System.out.println("");
+    } 
     
     for(int i=0; i < d; i++){
         if(i == 0 || i == d-1){
